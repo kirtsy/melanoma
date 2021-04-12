@@ -28,7 +28,7 @@ def get_args():
     parser.add_argument('--model-dir', type=str, default='./weights')
     parser.add_argument('--log-dir', type=str, default='./logs')
     parser.add_argument('--CUDA_VISIBLE_DEVICES', type=str, default='1')
-    parser.add_argument('--enet-type', type=str, default='tf_efficientnet_b4_ns3')
+    parser.add_argument('--enet-type', type=str, default='tf_efficientnet_b4_ns')
     parser.add_argument('--kernel-type', type=str,
                         default="tf_efficientnet_b4_ns_size512_outdim9_usemeta_batch16_epoch15_Nocc")   # 模型name
     parser.add_argument('--data-dir-2019', type=str, default='/home/data/ISIC_512/ISIC2019/')
